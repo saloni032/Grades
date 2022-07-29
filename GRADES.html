@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        
+      var msg = 'enter the marks of student:';
+      
+      var a = prompt(msg);
+      if(a>90)
+          {
+            document.write('Congratulations, You Got A Grade');}
+      else if(a<=90 && a>80)
+          {
+            document.write('Congratulations, You Got B Grade');}
+      else if(a>70 && a<=80)
+          {
+            document.write('Congratulations, You Got C Grade');}
+      else if(a>60 && a<=70)
+          {
+            document.write('Congratulations, You Got D Grade');}
+      else if(a>40 && a<=60)
+          {
+            document.write('Congratulations, You Got E Grade');}
+      else if(a<=40)
+          {
+            if(a<=35)
+              {
+                document.write('Sorry, You Are Fail');}
+            else
+              {document.write('Grade - F');}}
+      </script>
+      
+    
+</body>
+</html>
